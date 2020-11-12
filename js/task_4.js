@@ -1,5 +1,7 @@
+'use strict';
 
-function formatString (string, maxLength = 40) {
+
+function formatString(string, maxLength = 40) {
     if (string.length <= maxLength) {
       return string
     }
